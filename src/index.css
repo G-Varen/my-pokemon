@@ -5,7 +5,6 @@
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  /* line-height: 1; */
   font-weight: 400;
 
   color-scheme: light dark;
@@ -60,6 +59,7 @@
 }
 
 .poke-img{
+  position: relative;
   background-color: #fff1b9;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -79,6 +79,13 @@
   border-radius: 4px;
   font-weight: bold;
   font-size: 0.8rem;
+}
+
+.price{
+  position: absolute;
+  font-size: 0.8rem;
+  top: 5%;
+  right: 5%;
 }
 
 /* ---------------------------------- POKE SWIPE --------------------------------- */

@@ -5,6 +5,7 @@ const Pokenom = (props) => {
         <div className="poke-card">
             <h5>{props.name}</h5>
             <div className="poke-img">
+                <h6 className="price">150MAD</h6>
                 <img
                     src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${props.index}.png`}
                     alt={`Pokemon ${props.name}`}
